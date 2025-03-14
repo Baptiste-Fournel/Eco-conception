@@ -17,7 +17,7 @@ const Product = bdd.define('Product', {
     stock: {
         type: DataTypes.MEDIUMINT,
         allowNull: false,
-        default: 0
+        defaultValue: 0
     },
     reference: {
         type: DataTypes.STRING(12),
